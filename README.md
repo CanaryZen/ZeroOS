@@ -1,7 +1,4 @@
-# ZeroOS
-    A Multi-Command Operating System (Similar To MS-DOS).
-
-#                      Advanche ZeroOS
+                       Advanche ZeroOS
                     Version 1.0.92261.5472
 
               The Operating System For Everyone.
@@ -46,7 +43,7 @@
 #
      You can also change your Username & Password to be a new password you can remember. Everytime you change
          your username/password, Advanche ZeroOS will automatically restart for changes to be completed.
-#                       COMMANDS:
+                        COMMANDS:
            CLEAR/CLS               CLEARS THE ADVANCHE ZEROOS COMMAND LOG
            ECHO/SAY                ECHO ANY TEXT TO ADVANCHE ZEROOS
            RECHO/RSAY              ECHO ANY TEXT TO ADVANCHE ZEROOS (REVERSED)
@@ -68,7 +65,7 @@
            IP                      OUTPUTS PUBLIC/PRIVATE IP ADDRESSES TO ADVANCHE ZEROOS
            USER/USERNAME           CHANGES CURRENT USERNAME TO NEW USERNAME FOR ADVANCHE ZEROOS 
            PSWD/PASSWORD           CHANGES CURRENT PASSWORD TO NEW PASSWORD FOR ADVANCHE ZEROOS
-#                          CONFIG:
+                           CONFIG:
     UseUnsupportedVersions (Let's you use Unsupported Platforms for Advanche ZeroOS.)
        (NOTE: This is extremely buggy and experimental which will break Advanche ZeroOS. Use at your own risk.)
        (NOTE: This is supported for all platforms except for NT Platforms.)
@@ -87,7 +84,7 @@
 #
     LoginRequired (Let's you enable/disable the login required for Advanche ZeroOS.)
       (NOTE: This will not reset your current login configuration, but may interfere with any bugs.)
-#                          USER:
+                           USER:
     Username (Username for Advanche ZeroOS.)
 #
     Password (Password for Advanche ZeroOS.)
