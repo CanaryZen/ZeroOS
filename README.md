@@ -43,6 +43,7 @@
 #
      You can also change your Username & Password to be a new password you can remember. Everytime you change
          your username/password, Advanche ZeroOS will automatically restart for changes to be completed.
+#
                         COMMANDS:
            CLEAR/CLS               CLEARS THE ADVANCHE ZEROOS COMMAND LOG
            ECHO/SAY                ECHO ANY TEXT TO ADVANCHE ZEROOS
@@ -65,6 +66,7 @@
            IP                      OUTPUTS PUBLIC/PRIVATE IP ADDRESSES TO ADVANCHE ZEROOS
            USER/USERNAME           CHANGES CURRENT USERNAME TO NEW USERNAME FOR ADVANCHE ZEROOS 
            PSWD/PASSWORD           CHANGES CURRENT PASSWORD TO NEW PASSWORD FOR ADVANCHE ZEROOS
+#
                            CONFIG:
     UseUnsupportedVersions (Let's you use Unsupported Platforms for Advanche ZeroOS.)
        (NOTE: This is extremely buggy and experimental which will break Advanche ZeroOS. Use at your own risk.)
@@ -84,6 +86,7 @@
 #
     LoginRequired (Let's you enable/disable the login required for Advanche ZeroOS.)
       (NOTE: This will not reset your current login configuration, but may interfere with any bugs.)
+#
                            USER:
     Username (Username for Advanche ZeroOS.)
 #
