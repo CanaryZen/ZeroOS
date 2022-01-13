@@ -1,7 +1,6 @@
 ![Advanche ZeroOS Thumbnail](https://i.imgur.com/1nywSkr.jpg)
 
                        Advanche ZeroOS
-
               The Operating System For Everyone.
                               
 		             ABOUT:
