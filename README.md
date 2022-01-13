@@ -1,3 +1,5 @@
+![Advanche ZeroOS Thumbnail](https://i.imgur.com/1nywSkr.jpg)
+
                        Advanche ZeroOS
                     Version 1.0.92261.5472
 
