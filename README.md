@@ -5,7 +5,7 @@
 
               The Operating System For Everyone.
                             
-												   ABOUT:
+		             ABOUT:
              Advanche ZeroOS is an Operating System
                 Based on the Windows NT Kernel.
 
