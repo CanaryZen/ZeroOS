@@ -1,10 +1,9 @@
 ![Advanche ZeroOS Thumbnail](https://i.imgur.com/1nywSkr.jpg)
 
                        Advanche ZeroOS
-                    Version 1.0.92261.5472
 
               The Operating System For Everyone.
-                            
+                              
 		             ABOUT:
              Advanche ZeroOS is an Operating System
                 Based on the Windows NT Kernel.
