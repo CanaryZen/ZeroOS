@@ -12,8 +12,8 @@
 
 | Codenames | Versions |
 | --------- | -------- |
-| Katie     | 1.0.82742.6214-alpha |
-| Katie     | 1.0.91245.7462-beta  |
+| Katie     | 1.0.82742.6214-dev   |
+| Katie     | 1.0.91245.7462-dev   |
 | Cobra     | 1.0.92261.5472       |
 
                        Advanche ZeroOS
