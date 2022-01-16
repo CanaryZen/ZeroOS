@@ -8,6 +8,12 @@
 
 [LICENSE](https://github.com/Ghostedoryx/ZeroOS/blob/main/LICENSE)
 
+| Codenames | Versions |
+| --------- | -------- |
+| Katie     | 1.0.82742.6214-alpha |
+| Katie     | 1.0.91245.7462-beta  |
+| Cobra     | 1.0.92261.5472       |
+
                        Advanche ZeroOS
               The Operating System For Everyone.
                               
