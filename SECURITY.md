@@ -8,6 +8,7 @@ The current supported Python Versions for **Advanche ZeroOS**
 | -------------- | ------------------ |
 | 3.8.0          | :white_check_mark: |
 | < 3.8.0        | :x:                |
+| > 3.8.0        | :x:                |
 
 ## Reporting a Vulnerability
 
