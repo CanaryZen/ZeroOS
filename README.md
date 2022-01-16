@@ -8,6 +8,8 @@
 
 [LICENSE](https://github.com/Ghostedoryx/ZeroOS/blob/main/LICENSE)
 
+**Codename:**
+
 | Codenames | Versions |
 | --------- | -------- |
 | Katie     | 1.0.82742.6214-alpha |
