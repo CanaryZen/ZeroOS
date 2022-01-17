@@ -10,11 +10,11 @@
 #
 **Codename:**
 
-| Codenames | Versions |
-| --------- | -------- |
-| Zero      | 1.0.82742.6214-dev   |
-| Zero      | 1.0.91245.7462-dev   |
-| Cobra     | 1.0.92261.5472       |
+| Codenames | Versions             | Python Versions             |
+| --------- | -------------------- | --------------------------- |
+| Zero      | 1.0.82742.6214-dev   | Python 3.7.5 - Python 3.8.0 |
+| Zero      | 1.0.91245.7462-dev   | Python 3.7.5 - Python 3.8.0 |
+| Cobra     | 1.0.92261.5472       | Python 3.8.0                |
 
                        Advanche ZeroOS
               The Operating System For Everyone.
