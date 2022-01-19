@@ -88,7 +88,7 @@
                                          CONFIGURATION:
     UseUnsupportedVersions (Let's you use Unsupported Platforms for Advanche ZeroOS.)
        (NOTE: This is extremely buggy and experimental which will break Advanche ZeroOS. Use at your own risk.)
-       (NOTE: This is supported for all platforms except for NT Platforms.)
+       (NOTE: This is supported for all platforms except for NT platforms.)
 
     SetupMode (Let's you enter Setup Mode/OOBE.)
       (NOTE: This will reset Advanche ZeroOS. Use at your own risk.)
