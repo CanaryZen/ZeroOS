@@ -8,7 +8,7 @@
 
 [LICENSE](https://github.com/Ghostedoryx/ZeroOS/blob/main/LICENSE)
 #
-**Codename:**
+**Codenames:**
 
 | Codenames | Versions             | Python Versions             |
 | --------- | -------------------- | --------------------------- |
