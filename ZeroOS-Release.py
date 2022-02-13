@@ -426,7 +426,6 @@ try:
         if found == True:
             shutil.rmtree(directory)
         logging.shutdown()
-        user.close()
         sleep(3)
         advanche.restart()
 
