@@ -5,6 +5,9 @@
         "CheckForUpdates": true,
         "CheckRequiredModules": true,
         "CheckForLogs": true,
-        "LoginRequired": true
+        "LoginRequired": true,
+        "OfflineMode": false,
+        "AdministratorMode": false,
+        "FWCAdministratorMode": false
     }
 }

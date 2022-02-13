@@ -2,7 +2,7 @@
 #
 #
 #                      Advanche ZeroOS
-#                   Version 1.0.92261.5472
+#                   Version 1.1.84335.9465
 #
 #             The Operating System For Everyone.
 #
@@ -53,32 +53,65 @@
 #    You can also change your Username & Password to be a new password you can remember. Everytime you change
 #        your username/password, Advanche ZeroOS will automatically restart for changes to be completed.
 #
+#       Advanche ZeroOS can also be reset to a brand new state. This will automatically wipe the entire configuration
+#            and will automatically restart for changes to be completed. Also take note that this will not
+#             reset everything in the current folder, and will not automatically update Advanche ZeroOS.
+#
+#         You can also use Advanche ZeroOS in Offline Mode by enabling the configuration "OfflineMode".
+#      Please take note that Offline Mode will disable the Updating, Module, and some parts of the Compatability Systems.
+#         This will also disable some commands from being used due to the "OfflineMode" configuration being enabled.
+#
+#       Advanche ZeroOS also has an Administrator Mode, which you can use to get full access to the system.
+#           You can also enable Administrator Mode by editing the System Configuration and setting the
+#                             "AdministratorMode" configuration to True.   
+#
+#       Alongside Advanche ZeroOS's Administrator Mode is the FWC Administrator Mode (Forced Administrator Mode)
+#          which gives more power over the entire os itself. This is enabled by logging into an admin account
+#         or by editing the System Configuration and setting the "FWCAdministratorMode" configuration to True.
+#
+#        Advanche ZeroOS also has its own AI Chatbot called "Advanche NonCore" which trains itself overtime as
+#          you talk to it. This is a Machine-Learning AI Chatbot that is also based off from your Product ID,
+#           which means if you reset Advanche ZeroOS or enable the "SetupMode" Configuration, it will reset.
+#
+#               There is also a built-in Cloud-Based Anti-Virus that lets you scan files on your computer
+#                          And will give you the results if the file is found as a virus or not.
+#                      This is not for Online Files. Since this Cloud-Based Anti-Virus is still in beta,
+#                           this may be buggy for some users & not all features are available yet.
+#
 #
 ############################################################
 #
 #                       COMMANDS:
 #
-#          CLEAR/CLS               CLEARS THE ADVANCHE ZEROOS COMMAND LOG
-#          ECHO/SAY                ECHO ANY TEXT TO ADVANCHE ZEROOS
-#          RECHO/RSAY              ECHO ANY TEXT TO ADVANCHE ZEROOS (REVERSED)
-#          TTS/SAYTTS              SAYS ANYTHING IN TTS TO ADVANCHE ZEROOS
-#          CMD                     LAUNCHES ADVANCHE ZEROOS
-#          HELP/CMDS               SHOWS COMMANDS FOR ADVANCHE ZEROOS
-#          START                   START CERTAIN PROGRAM IN *.ZRO/*.ZERO/*.ZRX FORMAT
-#          *.ZRO/*.ZERO/*.ZRX      START CERTAIN PROGRAM IN *.ZRO/*.ZERO/*.ZRX FORMAT
-#          COPY/CP                 COPIES ANY FILE TO ANOTHER DIRECTORY
-#          MOVE/MV                 MOVES ANY FILE TO ANOTHER DIRECTORY
-#          EXIT/CTRL+C/SHUTDOWN    EXITS ADVANCHE ZEROOS
-#          RESTART                 RESTARTS ADVANCHE ZEROOS
-#          RANDOM                  CHOOSES A RANDOM NUMBER BETWEEN A & B
-#          UPDATE/RESTORE          UPDATES ADVANCHE ZEROOS TO THE LATEST VERSION
-#          INSTALL/INS             INSTALLS AN APPLICATION PACKAGE IN *.ZPX/*.ZPPX/*.ZPP FORMAT
-#          SEND/RQSEND             SENDS GET REQUEST TO SPECIFIED URL
-#          DATE                    OUTPUTS CURRENT DATE TO ADVANCHE ZEROOS
-#          TIME                    OUTPUTS CURRENT TIME TO ADVANCHE ZEROOS
-#          IP                      OUTPUTS PUBLIC/PRIVATE IP ADDRESSES TO ADVANCHE ZEROOS
-#          USER/USERNAME           CHANGES CURRENT USERNAME TO NEW USERNAME FOR ADVANCHE ZEROOS 
-#          PSWD/PASSWORD           CHANGES CURRENT PASSWORD TO NEW PASSWORD FOR ADVANCHE ZEROOS
+#          CLEAR/CLS                       CLEARS THE ADVANCHE ZEROOS COMMAND LOG
+#          ECHO/SAY                        ECHO ANY TEXT TO ADVANCHE ZEROOS
+#          RECHO/RSAY                      ECHO ANY TEXT TO ADVANCHE ZEROOS (REVERSED)
+#          TTS/SAYTTS                      SAYS ANYTHING IN TTS TO ADVANCHE ZEROOS
+#          CMD                             LAUNCHES ADVANCHE ZEROOS
+#          HELP/CMDS                       SHOWS COMMANDS FOR ADVANCHE ZEROOS
+#          START                           START CERTAIN PROGRAM IN *.ZRO/*.ZERO/*.ZRX FORMAT
+#          *.ZRO/*.ZERO/*.ZRX              START CERTAIN PROGRAM IN *.ZRO/*.ZERO/*.ZRX FORMAT
+#          COPY/CP                         COPIES ANY FILE TO ANOTHER DIRECTORY
+#          MOVE/MV                         MOVES ANY FILE TO ANOTHER DIRECTORY
+#          EXIT/CTRL+C/SHUTDOWN            EXITS ADVANCHE ZEROOS
+#          RESTART                         RESTARTS ADVANCHE ZEROOS
+#          RANDOM                          CHOOSES A RANDOM NUMBER BETWEEN A & B
+#          UPDATE/RESTORE (ONLINE)         UPDATES ADVANCHE ZEROOS TO THE LATEST VERSION
+#          INSTALL/INS                     INSTALLS AN APPLICATION PACKAGE IN *.ZPX/*.ZPPX/*.ZPP FORMAT
+#          SEND/RQSEND (ONLINE)            SENDS GET REQUEST TO SPECIFIED URL
+#          DATE                            OUTPUTS CURRENT DATE TO ADVANCHE ZEROOS
+#          TIME                            OUTPUTS CURRENT TIME TO ADVANCHE ZEROOS
+#          IP/IPIFY (ONLINE)               THE IP/IPIFY MODULE FOR ADVANCHE ZEROOS
+#          USER/USERNAME                   CHANGES CURRENT USERNAME TO NEW USERNAME FOR ADVANCHE ZEROOS 
+#          PSWD/PASSWORD                   CHANGES CURRENT PASSWORD TO NEW PASSWORD FOR ADVANCHE ZEROOS
+#          RESET (ONLINE)                  RESETS THE ENTIRE OPERATING SYSTEM OF ADVANCHE ZEROOS
+#          ABOUT/SYSTEM                    SHOWS ABOUT FOR ADVANCHE ZEROOS
+#          ADMIN/ADMINISTRATOR (USER)      ENABLES/DISABLES ADMINISTRATOR MODE FOR ADVANCHE ZEROOS
+#          LOGOFF                          LOGS OFF USER ACCOUNT FOR ADVANCHE ZEROOS
+#          CUSER/CREATEUSER (ADMIN)        CREATES A NEW USER FOR ADVANCHE ZEROOS
+#          DUSER/DELETEUSER (ADMIN)        DELETES AN EXISTING USER FOR ADVANCHE ZEROOS
+#          NONCORE/CHATBOT (ONLINE)        CHAT WITH A BUILT-IN AI LEARNING CHATBOT FOR ADVANCHE ZEROOS
+#          SCAN/VSCAN (ONLINE)             LETS YOU SCAN FILES ON YOUR COMPUTER FOR VIRUSES
 #
 #
 ############################################################
@@ -87,7 +120,7 @@
 #
 # UseUnsupportedVersions (Let's you use Unsupported Platforms for Advanche ZeroOS.)
 #   (NOTE: This is extremely buggy and experimental which will break Advanche ZeroOS. Use at your own risk.)
-#   (NOTE: This is supported for all platforms except for NT platforms.)
+#   (NOTE: This is supported for all platforms except for NT Platforms.)
 #
 # SetupMode (Let's you enter Setup Mode/OOBE.)
 #   (NOTE: This will reset Advanche ZeroOS. Use at your own risk.)
@@ -104,6 +137,15 @@
 # LoginRequired (Let's you enable/disable the login required for Advanche ZeroOS.)
 #   (NOTE: This will not reset your current login configuration, but may interfere with any bugs.)
 #
+# OfflineMode (Let's you use Advanche ZeroOS offline.)
+#   (NOTE: This will disable most modules & some commands due to Offline Mode.)
+#
+# AdministratorMode (Let's you enter Administrator Mode at startup.)
+#   (NOTE: This does not give you FWC Privileges which can access the Core of the System.)
+#
+# FWCAdministratorMode (Let's you enter FWC (Forced Workspace Manager) Administrator Mode at startup.)
+#   (NOTE: This will grant you acess to the entire System including the Core to be edited. Please only use this mode if you know what you're doing.)
+#
 #
 ############################################################
 #
@@ -115,6 +157,17 @@
 #
 # Password (Password for Advanche ZeroOS.)
 #
+# AdministratorPassword (Administrator Password for Advanche ZeroOS.)
+#
+# Username2 (2nd Username for Advanche ZeroOS.)
+#
+# Password2 (2nd Password for Advanche ZeroOS.)
+#
+# Username3 (3rd Username for Advanche ZeroOS.)
+#
+# Password3 (3rd Password for Advanche ZeroOS.)
+#
+# ProductID (Product ID for Advanche ZeroOS.)
 #
 #
 ############################################################
