@@ -416,7 +416,7 @@ try:
         user = open('config/user.json', 'r+')
         y = user.read()
         readuser = json.loads(y)
-        print(colored(f'[SYSTEM] System Product ID: {readuser["user_conf"]["ProductID"]}'))
+        print(colored(f'[SYSTEM] System Product ID: {readuser["user_conf"]["ProductID"]}', 'yellow'))
         logger.info('[LOG] Successfully Installed Advanche ZeroOS.')
         input()
         print(colored('[SYSTEM] Restarting Advanche ZeroOS...', 'yellow'))
@@ -425,6 +425,7 @@ try:
         if found == True:
             shutil.rmtree(directory)
         logging.shutdown()
+        user.close()
         sleep(3)
         advanche.restart()
 
@@ -616,7 +617,7 @@ try:
             found = os.path.isdir(directory)
             if found == False:
                 os.mkdir(directory)
-            f21 = open('tmp/sys.zmx', 'w+')
+            f21 = open('tmp/sys.zmx', 'w+', encoding='utf-8')
             f21.write(data1["files"]["ZeroOS-1.1-Source.py"]["content"])
             f21.close()
 
