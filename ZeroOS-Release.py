@@ -354,6 +354,9 @@ try:
 
     def SetupZeroOS():
         logger.info('[LOG] Entering Setup Mode...')
+        user = open('config/user.json', 'r+')
+        y = user.read()
+        readuser = json.loads(y)
         file_exists = exists('config/user.json')
         if file_exists == True:
             user.close()
