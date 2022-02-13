@@ -1,5 +1,5 @@
 ![Advanche ZeroOS Thumbnail](https://i.imgur.com/1nywSkr.jpg)
-
+#
 **Table of Contents:**
 
 [README](https://github.com/Ghostedoryx/ZeroOS/blob/main/README.md)
@@ -7,6 +7,16 @@
 [SECURITY](https://github.com/Ghostedoryx/ZeroOS/blob/main/SECURITY.md)
 
 [LICENSE](https://github.com/Ghostedoryx/ZeroOS/blob/main/LICENSE)
+#
+**Codenames:**
+
+| Codenames | Versions             | Python Versions             |
+| --------- | -------------------- | --------------------------- |
+| Zero      | 1.0.82742.6214-dev   | Python 3.7.5 - Python 3.8.0 |
+| Zero      | 1.0.91245.7462-dev   | Python 3.7.5 - Python 3.8.0 |
+| Cobra     | 1.0.92261.5472       | Python 3.8.0                |
+| Galaxy    | 1.1.14396.2391-dev   | Python 3.8.0                |
+| Galaxy    | 1.1.35863.4096-dev   | Python 3.8.0                |
 
                        Advanche ZeroOS
               The Operating System For Everyone.
@@ -79,7 +89,7 @@
                                          CONFIGURATION:
     UseUnsupportedVersions (Let's you use Unsupported Platforms for Advanche ZeroOS.)
        (NOTE: This is extremely buggy and experimental which will break Advanche ZeroOS. Use at your own risk.)
-       (NOTE: This is supported for all platforms except for NT Platforms.)
+       (NOTE: This is supported for all platforms except for NT platforms.)
 
     SetupMode (Let's you enter Setup Mode/OOBE.)
       (NOTE: This will reset Advanche ZeroOS. Use at your own risk.)
