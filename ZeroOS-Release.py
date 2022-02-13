@@ -211,6 +211,7 @@ try:
             user = open('config/user.json', 'r+')
             y = user.read()
             readuser = json.loads(y)
+            user.close()
         except JSONDecodeError:
             a = 'User Configuration Not Found.'
             b = a.encode()
@@ -413,9 +414,9 @@ try:
         config.close()
         print(colored('[SYSTEM] Congratulations! You have successfully installed Advanche ZeroOS.', 'yellow'))
         print()
-        user = open('config/user.json', 'r+')
-        y = user.read()
-        readuser = json.loads(y)
+        y = open('config/user.json', 'r+')
+        y1 = y.read()
+        readuser = json.loads(y1)
         print(colored(f'[SYSTEM] System Product ID: {readuser["user_conf"]["ProductID"]}', 'yellow'))
         logger.info('[LOG] Successfully Installed Advanche ZeroOS.')
         input()
@@ -1006,7 +1007,6 @@ try:
             print(Fore.YELLOW, 'IP/IPIFY (ONLINE)               THE IP/IPIFY MODULE FOR ADVANCHE ZEROOS')
             print(Fore.YELLOW, 'USER/USERNAME                   CHANGES CURRENT USERNAME TO NEW USERNAME FOR ADVANCHE ZEROOS')
             print(Fore.YELLOW, 'PSWD/PASSWORD                   CHANGES CURRENT PASSWORD TO NEW PASSWORD FOR ADVANCHE ZEROOS')
-            print(Fore.YELLOW, 'RESET (ONLINE)                  RESETS THE ENTIRE OPERATING SYSTEM OF ADVANCHE ZEROOS')
             print(Fore.YELLOW, 'ABOUT/SYSTEM                    SHOWS ABOUT FOR ADVANCHE ZEROOS')
             print(Fore.YELLOW, 'ADMIN/ADMINISTRATOR (USER)      ENABLES/DISABLES ADMINISTRATOR MODE FOR ADVANCHE ZEROOS')
             print(Fore.YELLOW, 'LOGOFF                          LOGS OFF USER ACCOUNT FOR ADVANCHE ZEROOS')
@@ -1518,60 +1518,6 @@ try:
             logging.shutdown()
             sleep(3)
             advanche.restart()
-        elif split[0] == 'reset' or split[0] == 'RESET':
-            if readconf["system_conf"]["OfflineMode"] == False and advanche.connect('https://www.google.com') == True:
-                try:
-                    cmd1 = input(Fore.YELLOW + '[SYSTEM] NOTE: This will factory reset Advanche ZeroOS. Are you sure you want to continue? [Y/n] ')
-                    if cmd1 == 'y' or cmd1 == 'Y':
-                        print()
-                        print(Fore.YELLOW, '[SYSTEM] Resetting Advanche ZeroOS...')
-                        user.close()
-                        os.remove('config/config.json')
-                        os.remove('config/user.json')
-                        url = 'https://api.github.com/gists/dd6cf700c064b84ba0b40674d138112f'
-                        response = urllib.request.urlopen(url)
-                        data = response.read()
-                        data1 = json.loads(data)
-                        config = open('config/config.json', 'w')
-                        config.write(data1["files"]["config.json"]["content"])
-                        config.close()
-                        print(Fore.YELLOW, '[SYSTEM] Successfully Resetted Advanche ZeroOS.')
-                        print()
-                        print(colored('[SYSTEM] Restarting Advanche ZeroOS...', 'yellow'))
-                        directory = f'{os.getcwd()}\\tmp'
-                        found = os.path.isdir(directory)
-                        if found == True:
-                            shutil.rmtree(directory)
-                        logging.shutdown()
-                        sleep(3)
-                        advanche.restart()
-                    else:
-                        print(Fore.YELLOW, '[SYSTEM] Factory Reset Aborted.')
-                except Exception as e:
-                    a = type(e).__name__.encode()
-                    b = hashlib.sha256(a).hexdigest().upper()[:8]
-
-                    exception_type, exception_object, exception_traceback = sys.exc_info()
-                    line_number = exception_traceback.tb_lineno
-
-                    print()
-                    print(colored('[SYSTEM ERROR] An error has occured while using Advanche ZeroOS. Please report this error to the Main Developer.\n', 'yellow'))
-                    print(colored(f'[SYSTEM ERROR] ERROR CODE: 0x{b}', 'yellow'))
-                    print(colored(f'[SYSTEM ERROR] ERROR LINE NUMBER: {line_number}', 'yellow'))
-                    print(colored(f'[SYSTEM ERROR] ERROR MESSAGE: {e}', 'yellow'))
-                    logger.error('[ERROR] An error has occured while using Advanche ZeroOS.')
-                    logger.error(f'[ERROR] ERROR CODE: 0x{b}')
-                    logger.error(f'[ERROR] ERROR MESSAGE: {e}')
-                    input()
-                    print(Fore.YELLOW, '[SYSTEM] Shutting Down Advanche ZeroOS...')
-                    directory = f'{os.getcwd()}\\tmp'
-                    found = os.path.isdir(directory)
-                    if found == True:
-                        shutil.rmtree(directory)
-                    sleep(3)
-                    sys.exit(0)
-            else:
-                print(Fore.YELLOW, f"[SYSTEM] '{split[0]}' is not recognized as an internal command or an operable program.")
         elif split[0] == 'about' or split[0] == 'ABOUT' or split[0] == 'system' or split[0] == 'SYSTEM':
             print(Fore.YELLOW, '[SYSTEM] Advanche ZeroOS [Version 1.1.84335.9465]')
             print(Fore.YELLOW, '[SYSTEM] (c) Advanche Corporation. All rights reserved.')
