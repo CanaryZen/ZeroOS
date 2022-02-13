@@ -354,9 +354,6 @@ try:
 
     def SetupZeroOS():
         logger.info('[LOG] Entering Setup Mode...')
-        user = open('config/user.json', 'r+')
-        y = user.read()
-        readuser = json.loads(y)
         file_exists = exists('config/user.json')
         if file_exists == True:
             user.close()
@@ -416,6 +413,9 @@ try:
         config.close()
         print(colored('[SYSTEM] Congratulations! You have successfully installed Advanche ZeroOS.', 'yellow'))
         print()
+        user = open('config/user.json', 'r+')
+        y = user.read()
+        readuser = json.loads(y)
         print(colored(f'[SYSTEM] System Product ID: {readuser["user_conf"]["ProductID"]}'))
         logger.info('[LOG] Successfully Installed Advanche ZeroOS.')
         input()
