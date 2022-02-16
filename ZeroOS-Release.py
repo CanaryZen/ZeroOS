@@ -145,7 +145,7 @@ try:
 
     signal.signal(signal.SIGINT, signal_handler)
 
-    system('title Advanche ZeroOS [Version 1.1.84335.9465]')
+    system('title Advanche ZeroOS [Version 1.1.93438.9963]')
 
     logger.info('[LOG] Advanche ZeroOS-Core Set.')
     logger.info('[LOG] Checking If Configuration Exists...')
@@ -165,7 +165,7 @@ try:
             line_number = exception_traceback.tb_lineno
 
             advanche.clear()
-            print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+            print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
             print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
             print()
             print(colored('[SYSTEM ERROR] An error has occured while using Advanche ZeroOS. Please report this error to the Main Developer.\n', 'yellow'))
@@ -187,7 +187,7 @@ try:
         c = hashlib.sha256(b).hexdigest().upper()[:8]
 
         advanche.clear()
-        print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+        print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
         print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
         print()
         print(colored('[SYSTEM ERROR] An error has occured while using Advanche ZeroOS. Please report this error to the Main Developer.\n', 'yellow'))
@@ -221,7 +221,7 @@ try:
             line_number = exception_traceback.tb_lineno
 
             advanche.clear()
-            print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+            print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
             print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
             print()
             print(colored('[SYSTEM ERROR] An error has occured while using Advanche ZeroOS. Please report this error to the Main Developer.\n', 'yellow'))
@@ -247,7 +247,7 @@ try:
             data1 = json.loads(data)
             if data1["files"]["ZeroOS-1.1-Status.txt"]["content"] == 'OUTDATED':
                 advanche.clear()
-                print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+                print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
                 print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
                 print()
                 print(colored('[SYSTEM] Hello! And thank you for using Advanche ZeroOS. It seems that this version is outdated and is no longer supported/compatible with this platform. Please upgrade to the latest version of Advanche ZeroOS and try again.', 'yellow'))
@@ -267,7 +267,7 @@ try:
             line_number = exception_traceback.tb_lineno
 
             advanche.clear()
-            print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+            print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
             print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
             print()
             print(colored('[SYSTEM ERROR] An error has occured while using Advanche ZeroOS. Please report this error to the Main Developer.\n', 'yellow'))
@@ -295,7 +295,7 @@ try:
         c = hashlib.sha256(b).hexdigest().upper()[:8]
 
         advanche.clear()
-        print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+        print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
         print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
         print()
         print(colored('[SYSTEM ERROR] An error has occured while using Advanche ZeroOS. Please report this error to the Main Developer.\n', 'yellow'))
@@ -316,7 +316,7 @@ try:
     if name == 'nt':
         if readconf["system_conf"]["UseUnsupportedVersions"] == True:
             advanche.clear()
-            print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+            print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
             print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
             print()
             print(colored('[SYSTEM] Hello! And thank you for using Advanche ZeroOS. It seems that the "UseUnsupportedVersions" feature is enabled but is not supported on your platform. Please consider disabling the "UseUnsupportedVersions" config for Advanche ZeroOS.', 'yellow'))
@@ -325,7 +325,7 @@ try:
     else:
         if readconf["system_conf"]["UseUnsupportedVersions"] == True:
             advanche.clear()
-            print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+            print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
             print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
             print()
             print(colored('[SYSTEM] Hello! And thank you for using Advanche ZeroOS. It seems that you are running on an Unsupported Platform which will cause lots of errors. Please consider disabling the "UseUnsupportedVersions" config for Advanche ZeroOS.', 'yellow'))
@@ -333,7 +333,7 @@ try:
             input()
         else:
             advanche.clear()
-            print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+            print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
             print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
             print()
             print(colored('[SYSTEM] Hello! And thank you for using Advanche ZeroOS. It seems that you are running on an Unsupported Platform which will cause lots of errors. Please consider upgrading your platform to Windows 7/8/10 or later.', 'yellow'))
@@ -360,7 +360,7 @@ try:
             user.close()
             os.remove('config/user.json')
         advanche.clear()
-        print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+        print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
         print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
         print()
         print(colored('[SYSTEM] Hello! And thank you for using Advanche ZeroOS. It seems that this is your first time using the OS. We will guide you through the setup to install Advanche ZeroOS.', 'yellow'))
@@ -434,32 +434,9 @@ try:
     else:
         pass
 
-    file_exists = exists('config/data.txt')
-    if file_exists == False:
-        a = 'Data Configuration Not Found.'
-        b = a.encode()
-        c = hashlib.sha256(b).hexdigest().upper()[:8]
-
-        advanche.clear()
-        print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
-        print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
-        print()
-        print(colored('[SYSTEM ERROR] An error has occured while using Advanche ZeroOS. Please report this error to the Main Developer.\n', 'yellow'))
-        print(colored(f'[SYSTEM ERROR] ERROR CODE: 0x{c}', 'yellow'))
-        print(colored(f'[SYSTEM ERROR] ERROR MESSAGE: {str(a)}', 'yellow'))
-        logger.error('[ERROR] Data Configuration Not Found.')
-        input()
-        print(colored('[SYSTEM] Shutting Down Advanche ZeroOS...', 'yellow'))
-        directory = f'{os.getcwd()}\\tmp'
-        found = os.path.isdir(directory)
-        if found == True:
-            shutil.rmtree(directory)
-        sleep(3)
-        sys.exit(0)
-
     def reset_password():
         advanche.clear()
-        print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+        print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
         print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
         print()
         print(colored('[SYSTEM] To reset your password, you will need your Product ID which is given to you from the Post-Setup.', 'yellow'))
@@ -505,7 +482,7 @@ try:
 
     if readconf["system_conf"]["LoginRequired"] == True:
         advanche.clear()
-        print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+        print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
         print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
         print()
         print(colored('[SYSTEM] NOTE: Login Is Required To Boot Advanche ZeroOS.', 'yellow'))
@@ -544,8 +521,10 @@ try:
                         cwcmd = f'A:\{readuser["user_conf"]["Username"]}>'
                         if cw2 or cwa2 == True:
                             cwcmd = f'(Administrator) A:\{readuser["user_conf"]["Username"]}>'
+                            username = readuser["user_conf"]["Username"]
                         else:
                             cwcmd = f'A:\{readuser["user_conf"]["Username"]}>'
+                            username = readuser["user_conf"]["Username"]
                         break
                     else:
                         print()
@@ -555,8 +534,10 @@ try:
                         cwcmd = f'A:\{readuser["user_conf"]["Username2"]}>'
                         if cw2 or cwa2 == True:
                             cwcmd = f'(Administrator) A:\{readuser["user_conf"]["Username2"]}>'
+                            username = readuser["user_conf"]["Username2"]
                         else:
                             cwcmd = f'A:\{readuser["user_conf"]["Username2"]}>'
+                            username = readuser["user_conf"]["Username2"]
                         break
                     else:
                         print()
@@ -566,8 +547,10 @@ try:
                         cwcmd = f'A:\{readuser["user_conf"]["Username3"]}>'
                         if cw2 or cwa2 == True:
                             cwcmd = f'(Administrator) A:\{readuser["user_conf"]["Username3"]}>'
+                            username = readuser["user_conf"]["Username3"]
                         else:
                             cwcmd = f'A:\{readuser["user_conf"]["Username3"]}>'
+                            username = readuser["user_conf"]["Username3"]
                         break
                     else:
                         print()
@@ -576,20 +559,20 @@ try:
                     print()
                     print(colored('[SYSTEM] Username/Password is Invalid, please try again.', 'yellow'))
         advanche.clear()
-        print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+        print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
         print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
         print()
         print(colored('[SYSTEM] Starting Advanche ZeroOS...', 'yellow'))
     else:
         advanche.clear()
-        print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+        print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
         print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
         print()
         print(colored('[SYSTEM] Starting Advanche ZeroOS...', 'yellow'))
 
     if readconf["system_conf"]["OfflineMode"] == True:
         advanche.clear()
-        print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+        print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
         print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
         print()
         print(colored('[SYSTEM] Hello! And thank you for using Advanche ZeroOS. It seems that the "OfflineMode" feature is enabled, please consider disabling the "OfflineMode" config for Advanche ZeroOS.', 'yellow'))
@@ -597,7 +580,7 @@ try:
         logger.info('[LOG] Successfully disabled all online modules & commands.')
         input()
         advanche.clear()
-        print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+        print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
         print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
         print()
         print(colored('[SYSTEM] Starting Advanche ZeroOS...', 'yellow'))
@@ -628,14 +611,14 @@ try:
             result = filecmp.cmp(f1, f2, shallow=False)
             if result != True:
                 advanche.clear()
-                print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+                print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
                 print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
                 print()
-                print(colored('[SYSTEM] Hello! And thank you for using Advanche ZeroOS. It seems that Advanche ZeroOS was Modified. It is recommended to re-download Advanche ZeroOS from the official site before continuing.', 'yellow'))
-                logger.warning('[WARNING] Advanche ZeroOS was Modified. It is recommended to re-download Advanche ZeroOS from the official site before continuing.')
+                print(colored('[SYSTEM] Hello! And thank you for using Advanche ZeroOS. It seems that Advanche ZeroOS was Modified or you are using an old version of Advanche ZeroOS. It is recommended to re-download/update Advanche ZeroOS from the official site before continuing.', 'yellow'))
+                logger.warning('[WARNING] Advanche ZeroOS was Modified or using an old version of Advanche ZeroOS. It is recommended to re-download/update Advanche ZeroOS from the official site before continuing.')
                 input()
                 advanche.clear()
-                print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+                print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
                 print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
                 print()
                 print(colored('[SYSTEM] Starting Advanche ZeroOS...', 'yellow'))
@@ -788,68 +771,6 @@ try:
                         os.remove(clean_up)
             logger.info('[LOG] Successfully deleted Overloading Logs.')
 
-    if readconf["system_conf"]["CheckForUpdates"] == True:
-        if readconf["system_conf"]["OfflineMode"] == False and advanche.connect('https://www.google.com') == True:
-            try:
-                logger.info('[LOG] Checking for Updates...')
-                print(colored('[SYSTEM] Checking for Updates...', 'yellow'))
-                url = 'https://api.github.com/gists/23907230390ac16891eb23930266ef1b'
-                response = urllib.request.urlopen(url)
-                data = response.read()
-                data1 = json.loads(data)
-                directory = f'{os.getcwd()}\\tmp'
-                found = os.path.isdir(directory)
-                if found == False:
-                    os.mkdir(directory)
-                file2 = open('tmp/data.txt', 'w+')
-                file2.write(data1["files"]["data.txt"]["content"])
-                file2.close()
-                f1 = 'config/data.txt'
-                f2 = 'tmp/data.txt'
-                result = filecmp.cmp(f1, f2, shallow=False)
-                if result != True:
-                    logger.info('[LOG] Updating Advanche ZeroOS...')
-                    print(colored('[SYSTEM] Updating ZeroOS...', 'yellow'))
-                    url = 'https://api.github.com/gists/db5d2f6eb911036e354822298606b671'
-                    response = urllib.request.urlopen(url)
-                    data = response.read()
-                    data1 = json.loads(data)
-                    open(os.path.abspath(__file__), 'wb').write(data1["files"]["ZeroOS-1.1-Source.py"]["content"])
-                    r2 = bytes(data1["files"]["data.txt"]["content"])
-                    open(os.getcwd() + '/config/data.txt', 'w').write(str(r2))
-                    print(colored('[SYSTEM] Restarting Advanche ZeroOS...', 'yellow'))
-                    directory = f'{os.getcwd()}\\tmp'
-                    found = os.path.isdir(directory)
-                    if found == True:
-                        shutil.rmtree(directory)
-                    logging.shutdown()
-                    sleep(3)
-                    advanche.restart()
-                else:
-                    logger.info('[LOG] No Updates Found.')
-                    print(colored('[SYSTEM] No Updates Found!', 'yellow'))
-            except Exception as e:
-                a = type(e).__name__.encode()
-                b = hashlib.sha256(a).hexdigest().upper()[:8]
-
-                exception_type, exception_object, exception_traceback = sys.exc_info()
-                line_number = exception_traceback.tb_lineno
-
-                print()
-                print(colored('[SYSTEM ERROR] An error has occured while using Advanche ZeroOS. Please report this error to the Main Developer.\n', 'yellow'))
-                print(colored(f'[SYSTEM ERROR] ERROR CODE: 0x{b}', 'yellow'))
-                print(colored(f'[SYSTEM ERROR] ERROR LINE NUMBER: {line_number}', 'yellow'))
-                print(colored(f'[SYSTEM ERROR] ERROR MESSAGE: {e}', 'yellow'))
-                logger.error("[ERROR] Some or more modules we're not found.")
-                input()
-                print(Fore.YELLOW, '[SYSTEM] Shutting Down Advanche ZeroOS...')
-                directory = f'{os.getcwd()}\\tmp'
-                found = os.path.isdir(directory)
-                if found == True:
-                    shutil.rmtree(directory)
-                    sleep(3)
-                    sys.exit(0)
-
     if readuser["user_conf"]["Username"] == "":
         if readuser["user_conf"]["Username2"] == "":
             if readuser["user_conf"]["Username3"] == "":
@@ -982,7 +903,7 @@ try:
                 str = "".join(chars)
                 print(str)
         elif split[0] == 'cmd' or split[0] == 'CMD':
-            print(Fore.YELLOW, 'Advanche ZeroOS [Version 1.1.84335.9465]')
+            print(Fore.YELLOW, 'Advanche ZeroOS [Version 1.1.93438.9963]')
             print(Fore.YELLOW, '(c) Advanche Corporation. All rights reserved.')
         elif split[0] == 'help' or split[0] == 'HELP' or split[0] == 'cmds' or split[0] == 'CMDS':
             print(Fore.YELLOW, 'CLEAR/CLS                       CLEARS THE ADVANCHE ZEROOS COMMAND LOG')
@@ -998,7 +919,6 @@ try:
             print(Fore.YELLOW, 'EXIT/CTRL+C/SHUTDOWN            EXITS ADVANCHE ZEROOS')
             print(Fore.YELLOW, 'RESTART                         RESTARTS ADVANCHE ZEROOS')
             print(Fore.YELLOW, 'RANDOM                          CHOOSES A RANDOM NUMBER BETWEEN A & B')
-            print(Fore.YELLOW, 'UPDATE/RESTORE (ONLINE)         UPDATES ADVANCHE ZEROOS TO THE LATEST VERSION')
             print(Fore.YELLOW, 'INSTALL/INS                     INSTALLS AN APPLICATION PACKAGE IN *.ZPX/*.ZPPX/*.ZPP FORMAT')
             print(Fore.YELLOW, 'SEND/RQSEND (ONLINE)            SENDS GET REQUEST TO SPECIFIED URL')
             print(Fore.YELLOW, 'DATE                            OUTPUTS CURRENT DATE TO ADVANCHE ZEROOS')
@@ -1143,77 +1063,8 @@ try:
                 print(Fore.YELLOW, f"[SYSTEM] The syntax of the command '{split[0]}' is incorrect.")
         elif split[0] == 'EmptyCommand':
             pass
-        elif split[0] == 'update' or split[0] == 'UPDATE' or split[0] == 'restore' or split[0] == 'RESTORE':
-            if readconf["system_conf"]["OfflineMode"] == False and advanche.connect('https://www.google.com') == True:
-                try:
-                    note = input(Fore.YELLOW + '[SYSTEM] Note that this will update Advanche ZeroOS and new changes will be made. Are you sure you want to continue? (Y/N) : ')
-                    if note == 'y' or note == 'Y':
-                        logger.info('[LOG] Checking for Updates...')
-                        print(colored('[SYSTEM] Checking for Updates...', 'yellow'))
-                        url = 'https://api.github.com/gists/23907230390ac16891eb23930266ef1b'
-                        response = urllib.request.urlopen(url)
-                        data = response.read()
-                        data1 = json.loads(data)
-                        directory = f'{os.getcwd()}\\tmp'
-                        found = os.path.isdir(directory)
-                        if found == False:
-                            os.mkdir(directory)
-                        file2 = open('tmp/data.txt', 'w+')
-                        file2.write(data1["files"]["data.txt"]["content"])
-                        file2.close()
-                        f1 = 'config/data.txt'
-                        f2 = 'tmp/data.txt'
-                        result = filecmp.cmp(f1, f2, shallow=False)
-                        if result != True:
-                            logger.info('[LOG] Updating Advanche ZeroOS...')
-                            print(colored('[SYSTEM] Updating ZeroOS...', 'yellow'))
-                            url = 'https://api.github.com/gists/db5d2f6eb911036e354822298606b671'
-                            response = urllib.request.urlopen(url)
-                            data = response.read()
-                            data1 = json.loads(data)
-                            open(os.path.abspath(__file__), 'wb').write(data1["files"]["ZeroOS-1.1-Source.py"]["content"])
-                            r2 = bytes(data1["files"]["data.txt"]["content"])
-                            open(os.getcwd() + '/config/data.txt', 'w').write(str(r2))
-                            print(colored('[SYSTEM] Restarting Advanche ZeroOS...', 'yellow'))
-                            directory = f'{os.getcwd()}\\tmp'
-                            found = os.path.isdir(directory)
-                            if found == True:
-                                shutil.rmtree(directory)
-                            logging.shutdown()
-                            sleep(3)
-                            advanche.restart()
-                        else:
-                            logger.info('[LOG] No Updates Found.')
-                            print(colored('[SYSTEM] No Updates Found!', 'yellow'))
-                    else:
-                        print(Fore.YELLOW, '[SYSTEM] Advanche ZeroOS Update Check Aborted.')
-                except Exception as e:
-                    a = type(e).__name__.encode()
-                    b = hashlib.sha256(a).hexdigest().upper()[:8]
-
-                    exception_type, exception_object, exception_traceback = sys.exc_info()
-                    line_number = exception_traceback.tb_lineno
-
-                    print()
-                    print(colored('[SYSTEM ERROR] An error has occured while using Advanche ZeroOS. Please report this error to the Main Developer.\n', 'yellow'))
-                    print(colored(f'[SYSTEM ERROR] ERROR CODE: 0x{b}', 'yellow'))
-                    print(colored(f'[SYSTEM ERROR] ERROR MESSAGE: {e}', 'yellow'))
-                    print(colored(f'[SYSTEM ERROR] ERROR LINE NUMBER: {line_number}', 'yellow'))
-                    logger.error('[ERROR] An error has occured while using Advanche ZeroOS.')
-                    logger.error(f'[ERROR] ERROR CODE: 0x{b}')
-                    logger.error(f'[ERROR] ERROR MESSAGE: {e}')
-                    input()
-                    print(Fore.YELLOW, '[SYSTEM] Shutting Down Advanche ZeroOS...')
-                    directory = f'{os.getcwd()}\\tmp'
-                    found = os.path.isdir(directory)
-                    if found == True:
-                        shutil.rmtree(directory)
-                    sleep(3)
-                    sys.exit(0)
-            else:
-                print(Fore.YELLOW, f"[SYSTEM] '{split[0]}' is not recognized as an internal command or an operable program.")
         elif split[0] == 'version' or split[0] == 'VERSION' or split[0] == 'ver' or split[0] == 'VER':
-            print(Fore.YELLOW, 'Advanche ZeroOS [Version 1.1.84335.9465]')
+            print(Fore.YELLOW, 'Advanche ZeroOS [Version 1.1.93438.9963]')
         elif split[0] == 'restart' or split[0] == 'RESTART':
             print(colored('[SYSTEM] Restarting Advanche ZeroOS...', 'yellow'))
             directory = f'{os.getcwd()}\\tmp'
@@ -1472,7 +1323,14 @@ try:
             logger.info(f'[LOG] Changing Current System Password To {new_pswd}...')
             config = open('config/user.json', 'r+')
             jsondata = config.read()
-            modified = jsondata.replace(f'"Password": "{readuser["user_conf"]["Password"]}"', f'"Password": "{new_pswd}"')
+            if username == readuser["user_conf"]["Username"]:
+                modified = jsondata.replace(f'"Password": "{readuser["user_conf"]["Password"]}"', f'"Password": "{new_pswd}"')
+            elif username == readuser["user_conf"]["Username2"]:
+                modified = jsondata.replace(f'"Password": "{readuser["user_conf"]["Password2"]}"', f'"Password2": "{new_pswd}"')
+            elif username == readuser["user_conf"]["Username3"]:
+                modified = jsondata.replace(f'"Password": "{readuser["user_conf"]["Password3"]}"', f'"Password3": "{new_pswd}"')
+            elif username == 'admin' or username == 'ADMIN' or username == 'administrator' or username == 'ADMINISTRATOR':
+                modified = jsondata.replace(f'"AdministratorPassword": "{readuser["user_conf"]["AdministratorPassword"]}"', f'"AdministratorPassword": "{new_pswd}"')
             config.seek(0)
             config.truncate()
             config.writelines(modified)
@@ -1501,7 +1359,12 @@ try:
             logger.info(f'[LOG] Changing Current System Username To {new_user}...')
             config = open('config/user.json', 'r+')
             jsondata = config.read()
-            modified = jsondata.replace(f'"Username": "{readuser["user_conf"]["Username"]}"', f'"Username": "{new_user}"')
+            if username == readuser["user_conf"]["Username"]:
+                modified = jsondata.replace(f'"Username": "{readuser["user_conf"]["Username"]}"', f'"Username": "{new_user}"')
+            elif username == readuser["user_conf"]["Username2"]:
+                modified = jsondata.replace(f'"Username2": "{readuser["user_conf"]["Username2"]}"', f'"Username2": "{new_user}"')
+            elif username == readuser["user_conf"]["Username3"]:
+                modified = jsondata.replace(f'"Username3": "{readuser["user_conf"]["Username3"]}"', f'"Username3": "{new_user}"')
             config.seek(0)
             config.truncate()
             config.writelines(modified)
@@ -1518,7 +1381,7 @@ try:
             sleep(3)
             advanche.restart()
         elif split[0] == 'about' or split[0] == 'ABOUT' or split[0] == 'system' or split[0] == 'SYSTEM':
-            print(Fore.YELLOW, '[SYSTEM] Advanche ZeroOS [Version 1.1.84335.9465]')
+            print(Fore.YELLOW, '[SYSTEM] Advanche ZeroOS [Version 1.1.93438.9963]')
             print(Fore.YELLOW, '[SYSTEM] (c) Advanche Corporation. All rights reserved.')
             print()
             print(Fore.YELLOW, f'[SYSTEM] Advanche ZeroOS Platform: {platform.system()}')
@@ -1583,7 +1446,7 @@ try:
             sleep(0.5)
             if readconf["system_conf"]["LoginRequired"] == True:
                 advanche.clear()
-                print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+                print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
                 print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
                 print()
                 print(colored('[SYSTEM] NOTE: Login Is Required To Boot Advanche ZeroOS.', 'yellow'))
@@ -1622,8 +1485,10 @@ try:
                                 cwcmd = f'A:\{readuser["user_conf"]["Username"]}>'
                                 if cw2 == True or cwa2 == True:
                                     cwcmd = f'(Administrator) A:\{readuser["user_conf"]["Username"]}>'
+                                    username = readuser["user_conf"]["Username"]
                                 else:
                                     cwcmd = f'A:\{readuser["user_conf"]["Username"]}>'
+                                    username = readuser["user_conf"]["Username"]
                                 break
                             else:
                                 print()
@@ -1633,8 +1498,10 @@ try:
                                 cwcmd = f'A:\{readuser["user_conf"]["Username2"]}>'
                                 if cw2 == True or cwa2 == True:
                                     cwcmd = f'(Administrator) A:\{readuser["user_conf"]["Username2"]}>'
+                                    username = readuser["user_conf"]["Username2"]
                                 else:
                                     cwcmd = f'A:\{readuser["user_conf"]["Username2"]}>'
+                                    username = readuser["user_conf"]["Username2"]
                                 break
                             else:
                                 print()
@@ -1644,8 +1511,10 @@ try:
                                 cwcmd = f'A:\{readuser["user_conf"]["Username3"]}>'
                                 if cw2 == True or cwa2 == True:
                                     cwcmd = f'(Administrator) A:\{readuser["user_conf"]["Username3"]}>'
+                                    username = readuser["user_conf"]["Username3"]
                                 else:
                                     cwcmd = f'A:\{readuser["user_conf"]["Username3"]}>'
+                                    username = readuser["user_conf"]["Username3"]
                                 break
                             else:
                                 print()
@@ -1654,7 +1523,7 @@ try:
                             print()
                             print(colored('[SYSTEM] Username/Password is Invalid, please try again.', 'yellow'))
                 advanche.clear()
-                print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+                print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
                 print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
                 print()
                 print(colored('[SYSTEM] Starting Advanche ZeroOS...', 'yellow'))
@@ -1662,7 +1531,7 @@ try:
                 print(colored('[SYSTEM] Welcome To Advanche ZeroOS!', 'yellow'))
             else:
                 advanche.clear()
-                print(colored('Advanche ZeroOS [Version 1.1.84335.9465]', 'yellow'))
+                print(colored('Advanche ZeroOS [Version 1.1.93438.9963]', 'yellow'))
                 print(colored('(c) Advanche Corporation. All rights reserved.', 'yellow'))
                 print()
                 print(colored('[SYSTEM] Starting Advanche ZeroOS...', 'yellow'))
@@ -1671,6 +1540,10 @@ try:
         elif split[0] == 'cuser' or split[0] == 'CUSER' or split[0] == 'createuser' or split[0] == 'CREATEUSER':
             cmd1 = input(Fore.YELLOW + '[SYSTEM] NOTE: This will create a new user & will allow you to use Advanche ZeroOS as normally for that new user account. Are you sure you want to continue? [Y/n] ')
             if cmd1 == 'y' or cmd1 == 'Y':
+                user = open('config/user.json', 'r+')
+                y = user.read()
+                readuser = json.loads(y)
+                user.close()
                 while True:
                     print()
                     password = pwinput.pwinput(Fore.YELLOW + '[SYSTEM] Administrator Login Password: ', '●')
@@ -1737,6 +1610,10 @@ try:
             cmd1 = input(Fore.YELLOW + '[SYSTEM] NOTE: This will delete an existing user & will delete all personal data associated with the user. Are you sure you want to continue? [Y/n] ')
             if cmd1 == 'y' or cmd1 == 'Y':
                 deleted_user = False
+                user = open('config/user.json', 'r+')
+                y = user.read()
+                readuser = json.loads(y)
+                user.close()
                 while True:
                     if deleted_user == True:
                         break
@@ -1785,7 +1662,38 @@ try:
                                             sleep(0.5)
                                             print(Fore.YELLOW, '[SYSTEM] User Deletion Failed (User Not Found).')
                                 else:
-                                    break
+                                    while True:
+                                        print()
+                                        userdel = input(Fore.YELLOW + f'[SYSTEM] Which user would you like to delete? (ex. {readuser["user_conf"]["Username2"]}) : ')
+                                        if userdel == readuser["user_conf"]["Username"]:
+                                            print()
+                                            print(Fore.YELLOW, f"[SYSTEM] Deleting User '{userdel}'...")
+                                            sleep(0.5)
+                                            delete_user(userdel)
+                                            deleted_user = True
+                                            print(Fore.YELLOW, '[SYSTEM] Successfully Deleted User.')
+                                            break
+                                        elif userdel == readuser["user_conf"]["Username2"]:
+                                            print()
+                                            print(Fore.YELLOW, f"[SYSTEM] Deleting User '{userdel}'...")
+                                            sleep(0.5)
+                                            delete_user(userdel)
+                                            deleted_user = True
+                                            print(Fore.YELLOW, '[SYSTEM] Successfully Deleted User.')
+                                            break
+                                        elif userdel == readuser["user_conf"]["Username3"]:
+                                            print()
+                                            print(Fore.YELLOW, f"[SYSTEM] Deleting User '{userdel}'...")
+                                            sleep(0.5)
+                                            delete_user(userdel)
+                                            deleted_user = True
+                                            print(Fore.YELLOW, '[SYSTEM] Successfully Deleted User.')
+                                            break
+                                        else:
+                                            print()
+                                            print(Fore.YELLOW, f"[SYSTEM] Deleting User '{userdel}'...")
+                                            sleep(0.5)
+                                            print(Fore.YELLOW, '[SYSTEM] User Deletion Failed (User Not Found).')
                             elif readuser["user_conf"]["Username3"] != "":
                                 print(Fore.YELLOW, f'[SYSTEM] #2 {readuser["user_conf"]["Username3"]}')
                                 while True:
@@ -1810,8 +1718,6 @@ try:
                                         print(Fore.YELLOW, f"[SYSTEM] Deleting User '{userdel}'...")
                                         sleep(0.5)
                                         print(Fore.YELLOW, '[SYSTEM] User Deletion Failed (User Not Found).')
-                            else:
-                                break
                         elif readuser["user_conf"]["Username2"] != "":
                             print(Fore.YELLOW, f'[SYSTEM] #1 {readuser["user_conf"]["Username2"]}')
                             if readuser["user_conf"]["Username3"] != "":
@@ -1838,6 +1744,8 @@ try:
                                         print(Fore.YELLOW, f"[SYSTEM] Deleting User '{userdel}'...")
                                         sleep(0.5)
                                         print(Fore.YELLOW, '[SYSTEM] User Deletion Failed (User Not Found).')
+                            else:
+                                break
                         elif readuser["user_conf"]["Username3"] != "":
                             print(Fore.YELLOW, f'[SYSTEM] #1 {readuser["user_conf"]["Username3"]}')
                             break
@@ -1862,79 +1770,82 @@ try:
                 print(Fore.YELLOW, f"[SYSTEM] '{split[0]}' is not recognized as an internal command or an operable program.")
         elif split[0] == 'scan' or split[0] == 'SCAN' or split[0] == 'vscan' or split[0] == 'VSCAN':
             if readconf["system_conf"]["OfflineMode"] == False and advanche.connect('https://www.google.com') == True:
-                print(Fore.YELLOW, f"[SYSTEM] Checking if '{split[1]}' exists...")
-                file_exists = exists(split[1])
-                if file_exists == False:
-                    print(Fore.YELLOW, f'[SYSTEM] File does not exist.')
-                    continue
-                print(Fore.YELLOW, f"[SYSTEM] Sending '{split[1]}' to Cloud-Based Anti-Virus...")
-                url = 'https://www.virustotal.com/vtapi/v2/file/scan'
-                params = { 'apikey': 'efe1fb46f42dfa9c974644bb7b1ae40495774d3bda40545266900d79dbc585a4' }
-                files = { 'file': (f'{split[1]}', open(f'{split[1]}', 'rb')) }
-                vscan = requests.post(url, files=files, params=params)
-                if vscan.status_code == 200:
-                    vscan1 = vscan.json()
-                    if vscan1["response_code"] == 1:
-                        print(Fore.YELLOW, '[SYSTEM] Successfully Sent File to Cloud-Based Anti-Virus.')
-                        i = 0
-                        while True:
-                            if i == 25:
-                                print(Fore.YELLOW, '[SYSTEM] File Scan Successfully Completed.')
-                                break
-                            for rod in r'\|/-':
-                                print(Fore.YELLOW, f'[SYSTEM] Waiting For File Scan to Complete... {rod}', end='\r')
-                                sleep(0.25)
-                            i += 1
-                        print(Fore.YELLOW, '[SYSTEM] Getting Scan Information from Cloud-Based Anti-Virus...')
-                        url = 'https://www.virustotal.com/vtapi/v2/file/report'
-                        params = { 'apikey': 'efe1fb46f42dfa9c974644bb7b1ae40495774d3bda40545266900d79dbc585a4', 'resource': f'{vscan1["scan_id"]}' }
-                        vscan = requests.get(url, params=params)
-                        if vscan.status_code == 200:
-                            vscan1 = vscan.json()
-                            if vscan1["response_code"] == 1:
-                                print(Fore.YELLOW, '[SYSTEM] Successfully Got Scan Information from Cloud-Based Anti-Virus.')
-                                print()
-                                print(Fore.YELLOW, '## SCAN RESULTS ##')
-                                print()
-                                print(Fore.YELLOW, f'[1] Bkav: {vscan1["scans"]["Bkav"]["detected"]}                                    [2] Lionic: {vscan1["scans"]["Lionic"]["detected"]}')
-                                print(Fore.YELLOW, f'[3] MicroWorld-eScan: {vscan1["scans"]["MicroWorld-eScan"]["detected"]}            [4] FireEye: {vscan1["scans"]["FireEye"]["detected"]}')
-                                print(Fore.YELLOW, f'[5] CAT-QuickHeal: {vscan1["scans"]["CAT-QuickHeal"]["detected"]}                  [6] McAfee: {vscan1["scans"]["McAfee"]["detected"]}')
-                                print(Fore.YELLOW, f'[7] Malwarebytes: {vscan1["scans"]["Malwarebytes"]["detected"]}                    [8] Zillya: {vscan1["scans"]["Zillya"]["detected"]}')
-                                print(Fore.YELLOW, f'[9] Sangfor: {vscan1["scans"]["Sangfor"]["detected"]}                              [10] K7AntiVirus: {vscan1["scans"]["K7AntiVirus"]["detected"]}')
-                                print(Fore.YELLOW, f'[11] K7GW: {vscan1["scans"]["K7GW"]["detected"]}                                   [12] Baidu: {vscan1["scans"]["Baidu"]["detected"]}')
-                                print(Fore.YELLOW, f'[13] VirIT: {vscan1["scans"]["VirIT"]["detected"]}                                 [14] Cyren: {vscan1["scans"]["Cyren"]["detected"]}')
-                                print(Fore.YELLOW, f'[15] Symantec: {vscan1["scans"]["Symantec"]["detected"]}                           [16] ESET-NOD32: {vscan1["scans"]["ESET-NOD32"]["detected"]}')
-                                print(Fore.YELLOW, f'[17] TrendMicro-HouseCall: {vscan1["scans"]["TrendMicro-HouseCall"]["detected"]}   [18] Avast: {vscan1["scans"]["Avast"]["detected"]}')
-                                print(Fore.YELLOW, f'[19] ClamAV: {vscan1["scans"]["ClamAV"]["detected"]}                               [20] Kaspersky: {vscan1["scans"]["Kaspersky"]["detected"]}')
-                                print(Fore.YELLOW, f'[21] BitDefender: {vscan1["scans"]["BitDefender"]["detected"]}                     [22] NANO-Antivirus: {vscan1["scans"]["NANO-Antivirus"]["detected"]}')
-                                print(Fore.YELLOW, f'[23] SUPERAntiSpyware: {vscan1["scans"]["SUPERAntiSpyware"]["detected"]}           [24] Tencent: {vscan1["scans"]["Tencent"]["detected"]}')
-                                print(Fore.YELLOW, f'[25] Ad-Aware: {vscan1["scans"]["Ad-Aware"]["detected"]}                           [26] TACHYON: {vscan1["scans"]["TACHYON"]["detected"]}')
-                                print(Fore.YELLOW, f'[27] Emsisoft: {vscan1["scans"]["Emsisoft"]["detected"]}                           [28] Comodo: {vscan1["scans"]["Comodo"]["detected"]}')
-                                print(Fore.YELLOW, f'[29] F-Secure: {vscan1["scans"]["F-Secure"]["detected"]}                           [30] DrWeb: {vscan1["scans"]["DrWeb"]["detected"]}')
-                                print(Fore.YELLOW, f'[31] VIPRE: {vscan1["scans"]["VIPRE"]["detected"]}                                 [32] TrendMicro: {vscan1["scans"]["TrendMicro"]["detected"]}')
-                                print(Fore.YELLOW, f'[33] McAfee-GW-Edition: {vscan1["scans"]["McAfee-GW-Edition"]["detected"]}         [34] CMC: {vscan1["scans"]["CMC"]["detected"]}')
-                                print(Fore.YELLOW, f'[35] Sophos: {vscan1["scans"]["Sophos"]["detected"]}                               [36] Jiangmin: {vscan1["scans"]["Jiangmin"]["detected"]}')
-                                print(Fore.YELLOW, f'[37] Avira: {vscan1["scans"]["Avira"]["detected"]}                                 [38] Antiy-AVL: {vscan1["scans"]["Antiy-AVL"]["detected"]}')
-                                print(Fore.YELLOW, f'[39] Kingsoft: {vscan1["scans"]["Kingsoft"]["detected"]}                           [40] Microsoft: {vscan1["scans"]["Microsoft"]["detected"]}')
-                                print(Fore.YELLOW, f'[41] Gridinsoft: {vscan1["scans"]["Gridinsoft"]["detected"]}                       [42] Arcabit: {vscan1["scans"]["Arcabit"]["detected"]}')
-                                print(Fore.YELLOW, f'[43] ViRobot: {vscan1["scans"]["ViRobot"]["detected"]}                             [44] ZoneAlarm: {vscan1["scans"]["ZoneAlarm"]["detected"]}')
-                                print(Fore.YELLOW, f'[45] GData: {vscan1["scans"]["GData"]["detected"]}                                 [46] Cynet: {vscan1["scans"]["Cynet"]["detected"]}')
-                                print(Fore.YELLOW, f'[47] AhnLab-V3: {vscan1["scans"]["AhnLab-V3"]["detected"]}                         [48] BitDefenderTheta: {vscan1["scans"]["BitDefenderTheta"]["detected"]}')
-                                print(Fore.YELLOW, f'[49] ALYac: {vscan1["scans"]["ALYac"]["detected"]}                                 [50] MAX: {vscan1["scans"]["MAX"]["detected"]}')
-                                print(Fore.YELLOW, f'[51] VBA32: {vscan1["scans"]["VBA32"]["detected"]}                                 [52] Zoner: {vscan1["scans"]["Zoner"]["detected"]}')
-                                print(Fore.YELLOW, f'[53] Rising: {vscan1["scans"]["Rising"]["detected"]}                               [54] Yandex: {vscan1["scans"]["Yandex"]["detected"]}')
-                                print(Fore.YELLOW, f'[55] Ikarus: {vscan1["scans"]["Ikarus"]["detected"]}                               [56] MaxSecure: {vscan1["scans"]["MaxSecure"]["detected"]}')
-                                print(Fore.YELLOW, f'[57] Fortinet: {vscan1["scans"]["Fortinet"]["detected"]}                           [58] Panda: {vscan1["scans"]["Panda"]["detected"]}')
-                                print()
-                                print(Fore.YELLOW, f'Scan ID: {vscan1["scan_id"]}')
-                                print(Fore.YELLOW, f'Total Anti-Viruses Used: {vscan1["total"]}')
-                                print(Fore.YELLOW, f'Positives: {vscan1["positives"]}')
+                if 1 < len(split):
+                    print(Fore.YELLOW, f"[SYSTEM] Checking if '{split[1]}' exists...")
+                    file_exists = exists(split[1])
+                    if file_exists == False:
+                        print(Fore.YELLOW, f'[SYSTEM] File does not exist.')
+                        continue
+                    print(Fore.YELLOW, f"[SYSTEM] Sending '{split[1]}' to Cloud-Based Anti-Virus...")
+                    url = 'https://www.virustotal.com/vtapi/v2/file/scan'
+                    params = { 'apikey': 'efe1fb46f42dfa9c974644bb7b1ae40495774d3bda40545266900d79dbc585a4' }
+                    files = { 'file': (f'{split[1]}', open(f'{split[1]}', 'rb')) }
+                    vscan = requests.post(url, files=files, params=params)
+                    if vscan.status_code == 200:
+                        vscan1 = vscan.json()
+                        if vscan1["response_code"] == 1:
+                            print(Fore.YELLOW, '[SYSTEM] Successfully Sent File to Cloud-Based Anti-Virus.')
+                            i = 0
+                            while True:
+                                if i == 50:
+                                    print(Fore.YELLOW, '[SYSTEM] File Scan Successfully Completed.')
+                                    break
+                                for rod in r'\|/-':
+                                    print(Fore.YELLOW, f'[SYSTEM] Waiting For File Scan to Complete... (May take a while) {rod}', end='\r')
+                                    sleep(0.25)
+                                i += 1
+                            print(Fore.YELLOW, '[SYSTEM] Getting Scan Information from Cloud-Based Anti-Virus...')
+                            url = 'https://www.virustotal.com/vtapi/v2/file/report'
+                            params = { 'apikey': 'efe1fb46f42dfa9c974644bb7b1ae40495774d3bda40545266900d79dbc585a4', 'resource': f'{vscan1["scan_id"]}' }
+                            vscan = requests.get(url, params=params)
+                            if vscan.status_code == 200:
+                                vscan1 = vscan.json()
+                                if vscan1["response_code"] == 1:
+                                    print(Fore.YELLOW, '[SYSTEM] Successfully Got Scan Information from Cloud-Based Anti-Virus.')
+                                    print()
+                                    print(Fore.YELLOW, '## SCAN RESULTS ##')
+                                    print()
+                                    print(Fore.YELLOW, f'[1] Bkav: {vscan1["scans"]["Bkav"]["detected"]}                                    [2] Lionic: {vscan1["scans"]["Lionic"]["detected"]}')
+                                    print(Fore.YELLOW, f'[3] MicroWorld-eScan: {vscan1["scans"]["MicroWorld-eScan"]["detected"]}            [4] FireEye: {vscan1["scans"]["FireEye"]["detected"]}')
+                                    print(Fore.YELLOW, f'[5] CAT-QuickHeal: {vscan1["scans"]["CAT-QuickHeal"]["detected"]}                  [6] McAfee: {vscan1["scans"]["McAfee"]["detected"]}')
+                                    print(Fore.YELLOW, f'[7] Malwarebytes: {vscan1["scans"]["Malwarebytes"]["detected"]}                    [8] Zillya: {vscan1["scans"]["Zillya"]["detected"]}')
+                                    print(Fore.YELLOW, f'[9] Sangfor: {vscan1["scans"]["Sangfor"]["detected"]}                              [10] K7AntiVirus: {vscan1["scans"]["K7AntiVirus"]["detected"]}')
+                                    print(Fore.YELLOW, f'[11] K7GW: {vscan1["scans"]["K7GW"]["detected"]}                                   [12] Baidu: {vscan1["scans"]["Baidu"]["detected"]}')
+                                    print(Fore.YELLOW, f'[13] VirIT: {vscan1["scans"]["VirIT"]["detected"]}                                 [14] Cyren: {vscan1["scans"]["Cyren"]["detected"]}')
+                                    print(Fore.YELLOW, f'[15] Symantec: {vscan1["scans"]["Symantec"]["detected"]}                           [16] ESET-NOD32: {vscan1["scans"]["ESET-NOD32"]["detected"]}')
+                                    print(Fore.YELLOW, f'[17] TrendMicro-HouseCall: {vscan1["scans"]["TrendMicro-HouseCall"]["detected"]}   [18] Avast: {vscan1["scans"]["Avast"]["detected"]}')
+                                    print(Fore.YELLOW, f'[19] ClamAV: {vscan1["scans"]["ClamAV"]["detected"]}                               [20] Kaspersky: {vscan1["scans"]["Kaspersky"]["detected"]}')
+                                    print(Fore.YELLOW, f'[21] BitDefender: {vscan1["scans"]["BitDefender"]["detected"]}                     [22] NANO-Antivirus: {vscan1["scans"]["NANO-Antivirus"]["detected"]}')
+                                    print(Fore.YELLOW, f'[23] SUPERAntiSpyware: {vscan1["scans"]["SUPERAntiSpyware"]["detected"]}           [24] Tencent: {vscan1["scans"]["Tencent"]["detected"]}')
+                                    print(Fore.YELLOW, f'[25] Ad-Aware: {vscan1["scans"]["Ad-Aware"]["detected"]}                           [26] TACHYON: {vscan1["scans"]["TACHYON"]["detected"]}')
+                                    print(Fore.YELLOW, f'[27] Emsisoft: {vscan1["scans"]["Emsisoft"]["detected"]}                           [28] Comodo: {vscan1["scans"]["Comodo"]["detected"]}')
+                                    print(Fore.YELLOW, f'[29] F-Secure: {vscan1["scans"]["F-Secure"]["detected"]}                           [30] DrWeb: {vscan1["scans"]["DrWeb"]["detected"]}')
+                                    print(Fore.YELLOW, f'[31] VIPRE: {vscan1["scans"]["VIPRE"]["detected"]}                                 [32] TrendMicro: {vscan1["scans"]["TrendMicro"]["detected"]}')
+                                    print(Fore.YELLOW, f'[33] McAfee-GW-Edition: {vscan1["scans"]["McAfee-GW-Edition"]["detected"]}         [34] CMC: {vscan1["scans"]["CMC"]["detected"]}')
+                                    print(Fore.YELLOW, f'[35] Sophos: {vscan1["scans"]["Sophos"]["detected"]}                               [36] Jiangmin: {vscan1["scans"]["Jiangmin"]["detected"]}')
+                                    print(Fore.YELLOW, f'[37] Avira: {vscan1["scans"]["Avira"]["detected"]}                                 [38] Antiy-AVL: {vscan1["scans"]["Antiy-AVL"]["detected"]}')
+                                    print(Fore.YELLOW, f'[39] Kingsoft: {vscan1["scans"]["Kingsoft"]["detected"]}                           [40] Microsoft: {vscan1["scans"]["Microsoft"]["detected"]}')
+                                    print(Fore.YELLOW, f'[41] Gridinsoft: {vscan1["scans"]["Gridinsoft"]["detected"]}                       [42] Arcabit: {vscan1["scans"]["Arcabit"]["detected"]}')
+                                    print(Fore.YELLOW, f'[43] ViRobot: {vscan1["scans"]["ViRobot"]["detected"]}                             [44] ZoneAlarm: {vscan1["scans"]["ZoneAlarm"]["detected"]}')
+                                    print(Fore.YELLOW, f'[45] GData: {vscan1["scans"]["GData"]["detected"]}                                 [46] Cynet: {vscan1["scans"]["Cynet"]["detected"]}')
+                                    print(Fore.YELLOW, f'[47] AhnLab-V3: {vscan1["scans"]["AhnLab-V3"]["detected"]}                         [48] BitDefenderTheta: {vscan1["scans"]["BitDefenderTheta"]["detected"]}')
+                                    print(Fore.YELLOW, f'[49] ALYac: {vscan1["scans"]["ALYac"]["detected"]}                                 [50] MAX: {vscan1["scans"]["MAX"]["detected"]}')
+                                    print(Fore.YELLOW, f'[51] VBA32: {vscan1["scans"]["VBA32"]["detected"]}                                 [52] Zoner: {vscan1["scans"]["Zoner"]["detected"]}')
+                                    print(Fore.YELLOW, f'[53] Rising: {vscan1["scans"]["Rising"]["detected"]}                               [54] Yandex: {vscan1["scans"]["Yandex"]["detected"]}')
+                                    print(Fore.YELLOW, f'[55] Ikarus: {vscan1["scans"]["Ikarus"]["detected"]}                               [56] MaxSecure: {vscan1["scans"]["MaxSecure"]["detected"]}')
+                                    print(Fore.YELLOW, f'[57] Fortinet: {vscan1["scans"]["Fortinet"]["detected"]}                           [58] Panda: {vscan1["scans"]["Panda"]["detected"]}')
+                                    print()
+                                    print(Fore.YELLOW, f'Scan ID: {vscan1["scan_id"]}')
+                                    print(Fore.YELLOW, f'Total Anti-Viruses Used: {vscan1["total"]}')
+                                    print(Fore.YELLOW, f'Positives: {vscan1["positives"]}')
+                                else:
+                                    print(Fore.YELLOW, '[SYSTEM] Failed to Get Scan Information from Cloud-Based Anti-Virus.')
                             else:
                                 print(Fore.YELLOW, '[SYSTEM] Failed to Get Scan Information from Cloud-Based Anti-Virus.')
-                        else:
-                            print(Fore.YELLOW, '[SYSTEM] Failed to Get Scan Information from Cloud-Based Anti-Virus.')
+                    else:
+                        print(Fore.YELLOW, '[SYSTEM] Failed to Send File to Cloud-Based Anti-Virus.')
                 else:
-                    print(Fore.YELLOW, '[SYSTEM] Failed to Send File to Cloud-Based Anti-Virus.')
+                    print(Fore.YELLOW, f"[SYSTEM] The syntax of the command '{split[0]}' is incorrect.")
             else:
                    print(Fore.YELLOW, f"[SYSTEM] '{split[0]}' is not recognized as an internal command or an operable program.") 
         else:
