@@ -2,7 +2,6 @@
     "system_conf": {
         "UseUnsupportedVersions": false,
         "SetupMode": true,
-        "CheckForUpdates": true,
         "CheckRequiredModules": true,
         "CheckForLogs": true,
         "LoginRequired": true,

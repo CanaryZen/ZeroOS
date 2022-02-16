@@ -45,17 +45,8 @@
 #          Python 3.8.0 is required for Advanche ZeroOS. Anything lower or higher than 3.8.0
 #                         will throw a system error at Advanche ZeroOS.
 #
-#      Advanche ZeroOS can be updated by the current update command or by enabling the "CheckForUpdates"
-#             configuration for automatic updates. You can also disable the automatic updates
-#       configuration to manually install updates, or to keep the current version of Advanche ZeroOS.
-#     If the current version is not supported by Advanche, you will be required to update Advanche ZeroOS.
-#
 #    You can also change your Username & Password to be a new password you can remember. Everytime you change
 #        your username/password, Advanche ZeroOS will automatically restart for changes to be completed.
-#
-#       Advanche ZeroOS can also be reset to a brand new state. This will automatically wipe the entire configuration
-#            and will automatically restart for changes to be completed. Also take note that this will not
-#             reset everything in the current folder, and will not automatically update Advanche ZeroOS.
 #
 #         You can also use Advanche ZeroOS in Offline Mode by enabling the configuration "OfflineMode".
 #      Please take note that Offline Mode will disable the Updating, Module, and some parts of the Compatability Systems.
@@ -104,7 +95,6 @@
 #          IP/IPIFY (ONLINE)               THE IP/IPIFY MODULE FOR ADVANCHE ZEROOS
 #          USER/USERNAME                   CHANGES CURRENT USERNAME TO NEW USERNAME FOR ADVANCHE ZEROOS 
 #          PSWD/PASSWORD                   CHANGES CURRENT PASSWORD TO NEW PASSWORD FOR ADVANCHE ZEROOS
-#          RESET (ONLINE)                  RESETS THE ENTIRE OPERATING SYSTEM OF ADVANCHE ZEROOS
 #          ABOUT/SYSTEM                    SHOWS ABOUT FOR ADVANCHE ZEROOS
 #          ADMIN/ADMINISTRATOR (USER)      ENABLES/DISABLES ADMINISTRATOR MODE FOR ADVANCHE ZEROOS
 #          LOGOFF                          LOGS OFF USER ACCOUNT FOR ADVANCHE ZEROOS
