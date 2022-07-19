@@ -10,18 +10,18 @@
 #
 **Codenames:**
 
-| Codenames | Versions             | Python Versions             |
-| --------- | -------------------- | --------------------------- |
-| Zero      | 1.0.82742.6214-dev   | Python 3.7.5 - Python 3.8.0 |
-| Zero      | 1.0.91245.7462-dev   | Python 3.7.5 - Python 3.8.0 |
-| Zero      | 1.0.92261.5472       | Python 3.8.0                |
-| Galaxy    | 1.1.14396.2391-dev   | Python 3.8.0                |
-| Galaxy    | 1.1.35863.4096-dev   | Python 3.8.0                |
-| Galaxy    | 1.1.84335.9465       | Python 3.8.0                |
-| Galaxy    | 1.1.93438.9963       | Python 3.8.0                |
-| Xenon     | 1.2.10246.2135-dev   | Python 3.8.0 - Python 3.8.12|
-| Xenon     | 1.2.10325.1435-dev   | Python 3.8.0 - Python 3.8.12|
-| Xenon     | 06A9DL7F2-Lite       | Python 3.8.0 - Python 3.8.12|
+| Codenames | Versions             | Python Versions                  |
+| --------- | -------------------- | -------------------------------- |
+| Zero      | 1.0.82742.6214-dev   | ✅ Python 3.7.5 - Latest        |
+| Zero      | 1.0.91245.7462-dev   | ✅ Python 3.7.5 - Latest        |
+| Zero      | 1.0.92261.5472       | ✅ Python 3.8.0                 |
+| Galaxy    | 1.1.14396.2391-dev   | ✅ Python 3.8.0                 |
+| Galaxy    | 1.1.35863.4096-dev   | ✅ Python 3.8.0                 |
+| Galaxy    | 1.1.84335.9465       | ✅ Python 3.8.0                 |
+| Galaxy    | 1.1.93438.9963       | ✅ Python 3.8.0                 |
+| Xenon     | 1.2.10246.2135-dev   | ✅ Python 3.8.0 - Python 3.8.12 |
+| Xenon     | 1.2.10325.1435-dev   | ✅ Python 3.8.0 - Python 3.8.12 |
+| Xenon     | 06A9DL7F2-Lite       | ✅ Python 3.8.0 - Python 3.8.12 |
 
                        Advanche ZeroOS
               The Operating System For Everyone.
