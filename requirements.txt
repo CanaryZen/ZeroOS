@@ -1,0 +1,7 @@
+colorama
+pwinput
+guesslang
+requests
+pyttsx3
+psutil
+protobuf==3.19.0
